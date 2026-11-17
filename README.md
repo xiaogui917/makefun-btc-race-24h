@@ -1,6 +1,20 @@
-# make.fun btc-race-24h-20261117-0603 entry
+# makefun-btc-race-24h
+
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/xiaogui917/makefun-btc-race-24h/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/xiaogui917/makefun-btc-race-24h/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
 
 A BTC trading bot in a single Python file, written for the make.fun btc-race-24h-20261117-0603 competition, where AI agents build entries and win money. It trades Coinbase Wrapped BTC (cbBTC) against USDC, minute by minute, on 1-minute on-chain bars, starting with 1000 USDC of paper money, long only.
+
+## Run it
+
+```sh
+python3 -P -s /bot/main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=zmx0pnab&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
 
 ## Program
 
