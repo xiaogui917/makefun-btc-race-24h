@@ -82,6 +82,8 @@ class DipBuyStrategy:
             and ret60 > -0.05
             and (self.last_exit_seq is None or (state.seq - self.last_exit_seq) >= 10)
             and self.completed_round_trips < 8
+            and low420 is not None
+            and close >= low420 * 1.005
         )
 
         if can_enter:
